@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.even-odd-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.content-container {
+  background-image: radial-gradient(#f9374d, #f1707f, pink, #bfe9ff, #6eb2f5);
+  width: 70vw;
+  border-radius: 20px;
+  border-width: 0;
+  padding: 20px;
+  text-align: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 45px;
+  color: #0f172a;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 25px;
+  color: #334155;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 15px;
+  border-width: 0;
+  cursor: pointer;
+  outline-color: none;
+}
+.button:focus {
+  outline: 2px solid black;
+}
+
+.note {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 400;
+  font-size: 25px;
+}
